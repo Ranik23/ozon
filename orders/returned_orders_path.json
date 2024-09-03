@@ -1,0 +1,23 @@
+[
+  {
+    "id": 236,
+    "receiver_id": 4,
+    "expiration": "2025-04-19T00:00:00Z",
+    "received": false,
+    "status": true
+  },
+  {
+    "id": 36,
+    "receiver_id": 4,
+    "expiration": "2025-04-19T00:00:00Z",
+    "received": false,
+    "status": true
+  },
+  {
+    "id": 26,
+    "receiver_id": 4,
+    "expiration": "2025-04-19T00:00:00Z",
+    "received": false,
+    "status": true
+  }
+]

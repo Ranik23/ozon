@@ -1,0 +1,7 @@
+config.yaml
+
+*.exe
+*.o
+*.out
+
+Makefile

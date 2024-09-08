@@ -3,6 +3,7 @@ package commands
 import (
 	"fmt"
 	"ozon1/internal/usecase"
+	"ozon1/internal/utils"
 	"strconv"
 	"time"
 
@@ -115,7 +116,7 @@ func ReturnAllOrders(uc *usecase.UserOperator) *cobra.Command {
 			if err != nil {
 				fmt.Println("Error returning all orders", err)
 			} else {
-				fmt.Println(*items)
+				utils.Paginate(*items)
 			}
 		},
 	}
